@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>TrishkaV.ExcelETLHelper</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>TrishkaV</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>Lightweight C# language extension to perform commond operation for Excel files with optimized performances. Open source project at github.com/TrishkaV/ExcelETLHelper</Description>
+    <Tags></Tags>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <ProjectUrl>github.com/TrishkaV/ExcelETLHelper</ProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="docs\readme.md" Pack="true" PackagePath=""/>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.20.0" />
+  </ItemGroup>
+
+</Project>
